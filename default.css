@@ -1,0 +1,131 @@
+/*general*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #B0B0B0 ; 
+	color: #a0a0a0;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+hr{
+	border:solid gray 2px;
+}
+p{
+	text-align: left;
+	color:#B0B0B0;
+	font-size: 16px;
+	margin: 5px;
+	margin-bottom: 50px;
+}
+div hr{
+	border:2px solid #B0B0B0;
+}
+div ul{
+	text-align: left;
+	margin-left: 20px;
+}
+/*header*/
+header{
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+	height: 80px;
+	border-top: solid gray 2px;
+	border-bottom: solid gray 2px;
+	font-size: 48px;
+	font-weight: bold;
+	padding-top: 20px;
+	color: #dc1a22;
+}
+.logo{
+	position: absolute;
+	left:25px;
+	height: 100px;
+}
+/*nav bar*/
+nav{
+	text-align: center;
+}
+nav ul{
+	list-style-type: none;
+}
+nav li{
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+	border:2px solid gray;
+}
+nav a{
+	color:#dc1a22;
+}
+/*upper half*/
+.upper-container{
+	text-align: center;
+	margin: 20px auto 0;
+	width: 1250px;
+}
+.smallbox{
+	width:400px;
+	height: 400px;
+	background-color: #404040 ;
+	display: inline-block;
+	margin-bottom: 15px;
+	vertical-align: top;
+}
+.mediumbox{
+	width:819px; /*400+400+15+4 (border, or at least what I believe is border)*/
+	height: 400px;
+	background-color: #404040 ;
+	display: inline-block;
+	margin-bottom: 15px;
+	vertical-align: top;
+}
+.left{
+	margin-left: 15px;
+}
+.center-box{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.right{
+	margin-right: 15px;
+}
+.upper-container img{
+	height:400px;
+	margin: 0;
+	padding: 0;
+}
+.upper-container a{
+	color:#B0B0B0;
+}
+
+/*lower half*/
+.lower-container{
+	text-align: center;
+	margin: 20px auto 0;
+	width: 1250px;
+}
+.column{
+	width:295px;
+	height: 500px;
+	background-color: #404040 ;
+	display: inline-block;
+	margin-bottom: 15px;
+	margin-top: 30px;
+	vertical-align: top;
+}
+.center-column{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.center-right-column{
+	margin-right: 15px;
+}
+.lower-container a{
+	color:#b0b0b0;
+}
