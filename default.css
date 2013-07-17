@@ -64,6 +64,10 @@ nav li{
 }
 nav a{
 	color:#dc1a22;
+	transition: background-color .5s ease;
+}
+nav a:hover{
+	background-color: gray;
 }
 /*upper half*/
 .upper-container{
@@ -102,7 +106,7 @@ nav a{
 	padding: 0;
 }
 .upper-container a{
-	color:#B0B0B0;
+	color:#dc1a22;
 }
 
 /*lower half*/
