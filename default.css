@@ -84,6 +84,15 @@ nav a:hover{
 	margin-bottom: 15px;
 	vertical-align: top;
 }
+.img-box{
+	text-align: center;
+	line-height: 400px;
+}
+
+.smallbox img{
+	width:400px;
+	vertical-align: middle;
+}
 
 .mediumbox{
 	width:819px; /*400+400+15+4 (border, or at least what I believe is border)*/
@@ -100,7 +109,7 @@ nav a:hover{
 	margin-right: 15px;
 }
 
-.upper-container img{
+.mediumbox img{
 	height:400px;
 	margin: 0;
 	padding: 0;
