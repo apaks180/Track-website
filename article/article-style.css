@@ -18,6 +18,9 @@ header{
 	padding-top: 20px;
 	color: #dc1a22;
 }
+a{
+	color:#dc1a22;
+}
 .logo{
 	position: absolute;
 	left:25px;
@@ -80,4 +83,21 @@ h1{
 .right{
 	float: right;
 	width: 400px;
+}
+@media screen and (max-width: 825px){
+	.logo{
+		display: none;
+	}
+	h1{
+		text-align: center;
+	}
+	header{
+		font-size: 36px;
+	}
+}
+@media screen and (max-width: 425px){
+	.image-container-right, .image-container-left, .left, .right{
+		max-width: 400px;
+		width:80%;
+	}
 }
