@@ -4,19 +4,17 @@
 	padding: 0;
 	font-family: 'Lato', sans-serif;
 }
+
 body{
 	background-color: #B0B0B0 ;
 	color: #a0a0a0;
 	min-width: 420px;
 }
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 hr{
 	border:solid gray 2px;
 }
+
 p{
 	text-align: left;
 	color:#B0B0B0;
@@ -24,9 +22,11 @@ p{
 	margin: 5px;
 	margin-bottom: 50px;
 }
+
 div hr{
 	border:2px solid #B0B0B0;
 }
+
 div ul{
 	text-align: left;
 	margin-left: 20px;
@@ -44,6 +44,7 @@ header{
 	padding-top: 20px;
 	color: #dc1a22;
 }
+
 .logo{
 	position: absolute;
 	left:25px;
@@ -53,21 +54,25 @@ header{
 nav{
 	text-align: center;
 }
+
 nav ul{
 	list-style-type: none;
 	font-size: 0;
 }
+
 nav li{
 	display: inline;
 	border:2px solid gray;
 	font-size: 16px;
 }
+
 nav a{
 	padding-left: 5px;
 	padding-right: 5px;
 	color:#dc1a22;
 	transition: background-color .5s ease;
 }
+
 nav a:hover{
 	background-color: gray;
 }
@@ -89,6 +94,7 @@ nav a:hover{
 	width:400px;
 	height: 400px;
 }
+
 .img-box{
 	text-align: center;
 	line-height: 400px;
@@ -115,6 +121,7 @@ nav a:hover{
 	margin: 0;
 	padding: 0;
 }
+
 .upper-container a{
 	color:#dc1a22;
 }
@@ -125,6 +132,7 @@ nav a:hover{
 	margin: 20px auto 0;
 	width: 1240px;
 }
+
 .column{
 	width:295px;
 	height: 500px;
@@ -134,32 +142,40 @@ nav a:hover{
 	margin-top: 30px;
 	vertical-align: top;
 }
+
 .center-column{
 	margin-left: 15px;
 	margin-right: 15px;
 }
+
 .center-right-column{
 	margin-right: 15px;
 }
+
 .lower-container a{
 	color:#b0b0b0;
 }
+/*responsive design*/
 @media screen and (max-width:1240px){
 	.mediumbox{
 		display: none;
 		margin: 0;
 	}
+
 	.upper-container{
 		width: 860px;
 	}
+
 	.center-box{
 		margin-left: 0;
 		margin-right: 0;
 	}
+
 	.left-med{
 		margin-left: 15px;
 		margin-right: 15px;
 	}
+
 	.right-med{
 		margin-right: 15px;
 	}
@@ -167,13 +183,16 @@ nav a:hover{
 	.lower-container{
 		width:860px;
 	}
+
 	.center-column{
 		margin: 0;
 
 	}
+
 	.center-right-column{
 		margin: 0;
 	}
+
 	.column{
 		display: block;
 		width:819px;
@@ -185,18 +204,22 @@ nav a:hover{
 	.lower-container, .upper-container{
 		width:420px;
 	}
+
 	.left-med, .right-med{
 		margin-right: 0;
 		margin-left: 0;
 	}
+
 	.column{
 		width:190px;
 		height: 300px;
 		display: inline-block;
 	}
+
 	.center-column{
 		margin-left: 15px;
 	}
+
 	.center-right-column{
 		margin-right: 15px;
 	}
@@ -205,6 +228,7 @@ nav a:hover{
 	.logo{
 		display: none;
 	}
+	
 	header{
 		font-size: 36px;
 	}
