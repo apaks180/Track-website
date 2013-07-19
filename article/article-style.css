@@ -35,13 +35,17 @@ nav ul{
 }
 nav li{
 	display: inline;
-	padding-left: 5px;
-	padding-right: 5px;
 	border:2px solid gray;
 	font-size: 16px;
 }
 nav a{
+	padding-left: 5px;
+	padding-right: 5px;
 	color:#dc1a22;
+	transition: background-color .5s ease;
+}
+nav a:hover{
+	background-color: gray;
 }
 p{
 	margin:20px 20px 30px 20px;
