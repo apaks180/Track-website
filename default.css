@@ -2,10 +2,12 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: 'Lato', sans-serif;
 }
 body{
 	background-color: #B0B0B0 ;
 	color: #a0a0a0;
+	min-width: 420px;
 }
 .group:after {
   content: "";
@@ -148,7 +150,7 @@ nav a:hover{
 		margin: 0;
 	}
 	.upper-container{
-		width: 900px;
+		width: 860px;
 	}
 	.center-box{
 		margin-left: 0;
@@ -163,7 +165,7 @@ nav a:hover{
 	}
 
 	.lower-container{
-		width:900px;
+		width:860px;
 	}
 	.center-column{
 		margin: 0;
@@ -178,11 +180,26 @@ nav a:hover{
 		margin: 0 auto 15px;
 		height: 200px;
 	}
-
-	
 }
-@media screen and (max-width: 840px){
-
+@media screen and (max-width: 860px){
+	.lower-container, .upper-container{
+		width:420px;
+	}
+	.left-med, .right-med{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.column{
+		width:190px;
+		height: 300px;
+		display: inline-block;
+	}
+	.center-column{
+		margin-left: 15px;
+	}
+	.center-right-column{
+		margin-right: 15px;
+	}
 }
 @media screen and (max-width: 825px){
 	.logo{

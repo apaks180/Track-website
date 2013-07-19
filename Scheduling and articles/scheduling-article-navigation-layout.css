@@ -22,6 +22,9 @@ header{
 a{
 	color:#dc1a22;
 }
+hr{
+	border:solid #B0B0B0 2px;
+}
 .logo{
 	position: absolute;
 	left:25px;
@@ -48,23 +51,34 @@ nav a{
 nav a:hover{
 	background-color: gray;
 }
-.photo-container{
+.container{
 	text-align: center;
 	margin: 20px auto 0;
 	width: 1240px;
 }
 
 .allbox{
-	background-color: #404040 ;
+	background-color: #404040;
 	display: inline-block;
 	margin-bottom: 15px;
 	vertical-align: top;
 	text-align: center;
-	line-height: 400px;
 	width:400px;
 	height: 400px;
+	color:#a0a0a0;
 }
 
+.allbox h2{
+	font-size: 24px;
+}
+.allbox h3{
+	font-size: 20px;
+	font-weight: normal;
+}
+.allbox p{
+	text-align: left;
+	margin: 10px 15px 5px;
+}
 .allbox img{
 	width:400px;
 	vertical-align: middle;
@@ -76,7 +90,7 @@ nav a:hover{
 }
 
 @media screen and (max-width:1240px){
-	.photo-container{
+	.container{
 		width:860px;
 	}
 	.center-full{
@@ -93,7 +107,7 @@ nav a:hover{
 
 }
 @media screen and (max-width: 860px){
-	.photo-container{
+	.container{
 		width:430px;
 	}
 	.left-med{
